@@ -22,6 +22,7 @@
 
     <modules>
         <module>human</module>
+        <module>death</module>
     </modules>
 
     <dependencyManagement>
