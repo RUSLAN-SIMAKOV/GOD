@@ -8,9 +8,34 @@
     <artifactId>human</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
+    <packaging>jar</packaging>
+
+
+    <parent>
+        <groupId>ruslan.simakov</groupId>
+        <artifactId>god</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
