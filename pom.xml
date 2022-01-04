@@ -23,6 +23,7 @@
     <modules>
         <module>human</module>
         <module>death</module>
+        <module>akkaStream</module>
     </modules>
 
     <dependencyManagement>
